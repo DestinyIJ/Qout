@@ -1,0 +1,42 @@
+:root {
+    --brand-primary: #0b0a0f;
+    --brand-secondary: #002147;
+    --brand-btn-primary: #45b1a2;
+    --brand-txt-primary: #F0FFF0;
+  }
+
+input {
+    outline-color: var(--brand-btn-primary) !important;
+}
+
+.brand-bg-primary {
+    background: var(--brand-primary);
+}
+.brand-bg-secondary {
+    background: var(--brand-secondary) !important;
+}
+.brand-btn-outline {
+    border: 2px solid var(--brand-btn-primary);
+    border-radius: 8px;
+}
+.brand-txt-primary {
+    color: var(--brand-txt-primary) !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.brand-logo-txt {
+    color: var(--brand-txt-primary) !important;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link {
+    color: #F0FFF0 !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    transition: 0.5s;
+}
+.nav-link:hover {
+    transform: scaleX(1.2) scaleY(1.1);
+}
